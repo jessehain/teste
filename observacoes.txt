@@ -1,0 +1,7 @@
+Observações:
+- Resolvi criar um Serviço Rest GET, apenas para startar o processo. 
+- Para executar, necessário colocar os arquivos a serem importados em \DATA\IN 
+- Executar o GET no browser http://localhost:8080/importar/arquivo
+- Será devolvido um JSON com o retorno (diretorio IN, OUT, arquivos processados e status)
+- Será gerado um arquivo .done.dat na para \DATA\OUT para cada arquivo processado
+- Os diretorios IN e OUT já estão criados e commitados com o arquivo exemplo do teste
